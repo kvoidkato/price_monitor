@@ -1,13 +1,19 @@
 TARGET_PRODUCTS = [
     {
         "name" : "A Light In The Attic",
-        "url": "https://books.toscrape.com",
+        "url": "https://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
         "selector_price": "p.price_color",
         "selector_stock": "p.instock.availability"
     },
     {
         "name": "Tipping the Velvet",
-        "url": "https://books.toscrape.com",
+        "url": "https://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+        "selector_price": "p.price_color",
+        "selector_stock": "p.instock.availability"
+    },
+    {
+        "name": "Soumission",
+        "url": "https://books.toscrape.com/catalogue/soumission_998/index.html",
         "selector_price": "p.price_color",
         "selector_stock": "p.instock.availability"
     }
