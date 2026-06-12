@@ -25,9 +25,9 @@ jobs:
 
     - name: Run Web Scraper Engine
       env:
-          ALERT_EMAIL_USER: ${{ secrets.ALERT_EMAIL_USER }}
-          ALERT_EMAIL_PASS: ${{ secrets.ALERT_EMAIL_PASS }}
-          ALERT_EMAIL_RECEIVER: ${{ secrets.ALERT_EMAIL_RECEIVER }}
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          EMAIL_RECEIVER: ${{ secrets.EMAIL_RECEIVER }}
       run: python main.py
 
     - name: Commit and Push Updated Database File
